@@ -1,0 +1,4 @@
+<p>Ce module permet d'avoir une vision synthetique des types apportes par chaque module, ainsi que des fonctions dynamiques qui y sont initialisees.</p>
+<p>Les nombres de ressources instanciees pour chaque type, ainsi que les nombres d'appels a ces ressources et aux fonctions dynamiques, permettent de mettre en evidence l'existence de ressources creees et non utilisees.</p>
+<p>Ce module permet aussi de consulter la presente page pour chaque module. Le fichier de texte a utiliser doit etre configure sur chaque module en indiquant en parametre de module README_FILEPATH le chemin depuis la racine du fichier a lire.</p>
+&hearts;

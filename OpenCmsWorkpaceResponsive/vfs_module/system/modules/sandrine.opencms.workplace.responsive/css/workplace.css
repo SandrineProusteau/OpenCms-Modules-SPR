@@ -1,0 +1,102 @@
+
+
+html, body { 
+	padding : 0; margin : 0; height : 100%;/*min-height:100%;*/ }
+body { 
+	width: 100%; /*min-height: 100%;*/ background: #fff; color: #000000; font-size: 12px;}
+	
+	
+#wrapper { 
+	text-align: center; width: 100%; margin: 0 auto; position: relative; font-family: Arial, sans-serif;}
+	
+img {
+	display: block; border: 0; max-width: 100%; margin: 0 auto;}
+a img {
+	display: block; border: 0; text-decoration: none; max-width: 100%;}
+.clear {
+	clear: both; float:none; line-height: 1px; overflow:hidden; font-size:1px;}
+	
+	
+#logo{
+	text-align: center; padding-top: 2em;padding-bottom: 1em;}
+#login-center {
+	margin: 0 auto; border: 1px solid #002C80; padding: 1em; display: inline-block; text-align: left;}
+	
+.free-software {
+	text-align: center; font-size: 0.8em; color: #999;margin-top: 0.5em; }
+.free-software a {	
+	color: #002C80; text-decoration: underline;}
+.free-software a:hover {	
+	text-decoration: none;}
+	
+
+	
+.dialoghead {
+	font-weight: bold; text-align: center; font-size: 1.2em;}
+.dialogcontent {
+	margin: 1em auto;}
+	
+.login-form {
+	margin: 0 auto; padding: 0;}	
+	
+.form-table {
+	width: auto; border: 0;margin: 0 auto; border-collapse: collapse;}
+.form-table td{
+	padding: 0;}
+.form-table .security {
+	padding-bottom: 0.5em; font-weight: bold;}	
+.form-table .message {
+	padding-bottom: 0.5em; }	
+.form-table .picto {
+	width: 60px; text-align: center; vertical-align: top;}
+.form-table .label {
+	font-weight: bold; padding-bottom: 0.5em;}	
+.form-table .field {
+	font-weight: bold; padding-bottom: 0.5em;}	
+.form-table .buttons {
+	}
+.form-table .field-select-ou {
+	}
+.form-table .field input{
+	border: 0; border-radius: 2px;  box-shadow: 0 0 2px #999 inset; padding: 0.2em 5%; color: #999; font-size: 1em; width: 90%;}
+.form-table .field input:focus{
+	box-shadow: 0 0 2px #B21932 inset; color: #B21932; }
+.form-table .loginbutton {
+	border: 1px solid #999 ; background: #999; color: #fff; cursor: pointer; padding: 0.1em 0.3em; box-shadow: 0 0 5px #999;
+	border-radius: 4px; margin: 0 auto;}
+.form-table .loginbutton:hover {
+	background: #fff; color: #999;}	
+
+
+.form-table #ouSearchId input {
+	/*border: 0; padding: 0; box-shadow: none ; font-style: italic;*/ }
+.form-table .field-select-ou #ouSelId{	
+	border: 0; border-radius: 2px;  box-shadow: 0 0 2px #999 inset; padding: 0.2em 1em; color: #999; font-size: 1em; margin-bottom: 1em; }
+.form-table .field-select-ou #ouSelId div{
+	padding: 0.2em 1em; cursor: pointer; }
+.form-table .field-select-ou #ouSelId div:hover{
+	background: #ddd; }
+.form-table .field-select-ou .name{
+	color: #000; padding-right: 1em; }
+.form-table .field-select-ou .path{
+	color: #000; font-style: italic; }
+.form-table .field-select-ou .active .name{
+	color: #B21932; }
+.form-table .field-select-ou .active .path{
+	color: #B21932; }
+	
+@media handheld, only screen and (max-width:350px) {
+	#login-center {
+		border: 0; }
+	.form-table, .form-table thead, .form-table tbody, .form-table th, .form-table td, .form-table tr { 
+		display: block;clear: both;}
+	.form-table .picto {
+		display: none;}
+	.form-table .field input{
+		width: 90%;  }
+	.form-table .buttons {
+		text-align: center;}
+	.form-table .loginbutton {
+		display: block;}
+}	
+	
